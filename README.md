@@ -25,17 +25,12 @@ She spends limited time per candidate, so clarity and readability are essential.
 **Needs:**  
 A concise CV website that communicates personality and abilities efficiently.
 
-
----
-
 ## 2. Information Architecture
 
 This project is designed as a **single-page website** organized into two vertical columns to ensure efficient readability. The **left column** provides quick-reference information: personal contact details, education background, programming skills, and languages. These are categories that recruiters typically check first.
 
 The **right column** focuses on narrative and display-oriented content. The header introduces the name and professional role immediately. Below this, the profile section highlights personal traits and goals. The **soft skills section** uses visual circular progress indicators to present self-evaluation in a quick, interpretive format that does not require reading paragraphs. Finally, the **projects section** provides a concise description of a notable project including key technical highlights and a link to the GitHub repository for further inspection.
 
-
----
 
 ## 3. Visual Design
 
@@ -46,8 +41,6 @@ The typography is **sans-serif** for readability and minimalism. Titles use incr
 The right column incorporates a **looping space video background**, adding a sense of depth and atmosphere.  
 Overall, the design aims to communicate professionalism and creativity, balancing structured information with expressive visual elements.
 
-
----
 
 ## 4. Figma Design
 
