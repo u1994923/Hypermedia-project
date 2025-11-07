@@ -1,17 +1,17 @@
 CV Website – Yang Jin
 1. Project Analysis
-User Profile (User Persona)
-Name:Laura
-Role:Recruiter in a tech company
-Age:39
-Goals: Laura is reviewing profiles of candidates for software developer position. She wants to quickly identify candidates who show strong learning capacity and a good base in programming.
-Motivations: Find someone proactive, adaptable, and capable of working in a team.
-What she expects from the website:
+-User Profile (User Persona)
+-Name:Laura
+-Role:Recruiter in a tech company
+-Age:39
+-Goals: Laura is reviewing profiles of candidates for software developer position. She wants to quickly identify candidates who show strong learning capacity and a good base in programming.
+-Motivations: Find someone proactive, adaptable, and capable of working in a team.
+-What she expects from the website:
 Clear layout and well-organized information
 Quick access to education, technical skills, soft skills, and contact details
 Proof of ability (links to GitHub or project examples)
-Behaviors: She spends limited time per candidate, so clarity and readability are essential.
-Needs: A concise CV website that communicates personality and abilities efficiently.
+-Behaviors: She spends limited time per candidate, so clarity and readability are essential.
+-Needs: A concise CV website that communicates personality and abilities efficiently.
 
 2. Information Architecture
 This project is designed as a single-page website organized into two vertical columns to ensure efficient readability. The left column provides quick-reference information: personal contact details, education background, programming skills, and languages. These are categories that recruiters typically check first.
