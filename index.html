@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Yang Jin">
+        <meta name="description" content="CV of Yang Jin">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Yang Jin - CV</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js" defer></script>
+    </head>
+
+    <body>
+        <!-- Language Selector -->
+        <div class="language-selector">
+            <button class="lang-btn active" data-lang="en">EN</button>
+            <button class="lang-btn" data-lang="es">ES</button>
+            <button class="lang-btn" data-lang="ca">CA</button>
+        </div>
+
+        <main class="contenidor">
+            <!-- Left column -->
+            <aside class="left-column">
+                <img src="face_picture.jpg" alt="Profile picture of Yang Jin" class="profile-image">
+
+                <address>
+                    <ul>
+                        <li>+34 688 141 492</li>
+                        <li>u1994923@campus.udg.edu</li>
+                        <li>www.hola.com</li>
+                        <li>Catalunya, Girona</li>
+                    </ul>
+                </address>
+
+                <section class="education-section">
+                    <h2 data-i18n="educationTitle">EDUCATION</h2>
+
+                    <a href="https://www.udg.edu/es/" target="_blank"  class="education-link">
+                        <article>
+                            <h3 data-i18n="universityTitle">Computer Engineering</h3>
+                            <p data-i18n="uniSchool">University of Girona</p>
+                            <p data-i18n="uniYears">2022 - 2025</p>
+                        </article>
+                    </a>
+
+                    <a href="https://www.jvvgirona.eu/ca/" target="_blank" class="education-link">
+                        <article>
+                            <h3 data-i18n="highschoolDegree">High School Diploma (Technology Track)</h3>
+                            <p data-i18n="hsSchool">Jaume Vicens Vives</p>
+                            <p data-i18n="hsYears">2020 - 2022</p>
+                        </article>
+                    </a>
+                </section>
+
+                <section class="coding-skill-section">
+                    <h2 data-i18n="codingSkills">SKILLS</h2>
+                    <ul>
+                        <li>Python</li>
+                        <li>C / C++</li>
+                        <li>Java</li>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                        <li>SQL</li>
+                    </ul>
+                </section>
+
+                <section class="language-section">
+                    <h2 data-i18n="languagesTitle">LANGUAGES</h2>
+                    <ul>
+                        <li data-i18n="english">English</li>
+                        <li data-i18n="spanish">Spanish</li>
+                        <li data-i18n="catalan">Catalan</li>
+                        <li data-i18n="chinese">Chinese</li>
+                    </ul>
+                </section>
+
+            </aside> 
+
+            <!-- Right column -->
+            <div class="right-column">
+                <video class="video-background" autoplay muted loop playsinline>
+                    <source src="space_loop.mp4" type="video/mp4">
+                </video>
+                <div class="right-column-content">
+                    <header>
+                        <h1 data-i18n="name">YANG JIN</h1>
+                        <p class="study-title" data-i18n="title">Computer Engineer</p>
+                    </header>   
+
+                <section class="profile-section">
+                    <h2 data-i18n="aboutMe">PROFILE</h2>
+                    <p data-i18n="profileDescription">Motivated and responsible student eager to develop professional skills. Quick learner with strong communication and teamwork abilities. Interested in gaining experience in programming and software roles.</p>
+                </section>
+                
+                <section class="soft-skills-section">
+                    <h2 data-i18n="softSkills">SOFT SKILLS</h2>
+                    <div class="skills-grid">
+                        
+                        <div class="skill-item">
+                            <div class="skill-circle" style="--p: 90;"> <span>4.5</span>
+                            </div>
+                            <div class="skill-name" data-i18n="problemSolving">Problem-solving</div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-circle" style="--p: 80;"> <span>4.0</span>
+                            </div>
+                            <div class="skill-name" data-i18n="teamwork">Team collaboration</div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-circle" style="--p: 70;"> <span>3.5</span>
+                            </div>
+                            <div class="skill-name" data-i18n="creativity">Creativity</div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-circle" style="--p: 90;"> <span>4.5</span>
+                            </div>
+                            <div class="skill-name" data-i18n="attention">Attention to detail</div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-circle" style="--p: 80;"> <span>4.0</span>
+                            </div>
+                            <div class="skill-name" data-i18n="communication">Communication</div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-circle" style="--p: 70;"> <span>3.5</span>
+                            </div>
+                            <div class="skill-name" data-i18n="timeManagement">Time management</div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-circle" style="--p: 80;"> <span>4.0</span>
+                            </div>
+                            <div class="skill-name" data-i18n="adaptability">Adaptability</div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-circle" style="--p: 80;"> <span>4.0</span>
+                            </div>
+                            <div class="skill-name" data-i18n="criticalThinking">Critical thinking</div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="project-section">
+                    <h2 data-i18n="projects">PROJECTS</h2>
+                    <article class="project">
+                        <h3 class="project-name" data-i18n="fluidProject">Fluid Simulation</h3>
+                        <ul>
+                            <li data-i18n="fluidDesc1">Implemented a real-time 2D fluid simulation using the FLIP (Fluid-Implicit Particle) method.</li>
+                            <li data-i18n="fluidDesc2">Developed interactive controls to modify viscosity, gravity vector, particle separation, and simulation resolution.</li>
+                            <li data-i18n="fluidDesc3">Created dynamic containers (circular, star, heart, diamond, rectangular) and obstacle interaction using WebGL rendering.</li>
+                            <li data-i18n="fluidDesc4">Built the simulation entirely in JavaScript and WebGL without external physics engines.</li>
+                            <li><strong data-i18n="githubLink">GitHub:</strong> <a href="https://github.com/u1994923/FLUID_EFFECT" target="_blank">github.com/u1994923/FLUID_EFFECT</a></li>
+                        </ul>
+                    </article>
+                </section>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>

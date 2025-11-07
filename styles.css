@@ -1,0 +1,346 @@
+/*Variables*/
+:root {
+    --primary-color: #3b82f6;
+    --primary-dark: #2563eb;
+    --text-light: #555;
+    --border-color: #d1d5db;
+    --bg-left: #161c3e;
+    --bg-page: #050b25;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: var(--bg-page);
+    padding: 40px 20px;
+    color: white;
+}
+
+/*Language Selector*/
+.language-selector {
+    max-width: 960px;
+    margin: 0 auto 20px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+}
+
+.lang-btn {
+    padding: 8px 16px;
+    background-color: white;
+    border: 2px solid var(--border-color);
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    color: var(--text-light);
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+}
+
+.lang-btn:hover {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+    box-shadow: 0 2px 8px rgba(59, 130, 246, 0.2);
+}
+
+.lang-btn.active {
+    background-color: var(--primary-color);
+    color: white;
+    border-color: var(--primary-color);
+}
+
+.lang-btn.active:hover {
+    background-color: var(--primary-dark);
+    border-color: var(--primary-dark);
+}
+
+/*Main Container*/
+
+.contenidor {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+/*Left Column*/
+
+.left-column {
+    background-color: var(--bg-left);
+    padding: 40px 30px;
+}
+
+.profile-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+    border: 8px solid white;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+address {
+    font-style: normal;
+    margin-bottom: 40px;
+}
+
+address ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+address li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+    display: flex;
+    align-items: center;
+}
+
+address li::before {
+    margin-right: 10px;
+    font-size: 16px;
+    width: 20px; 
+    text-align: center;
+}
+
+address li:nth-child(1)::before { content: '📞'; }
+address li:nth-child(2)::before { content: '📧'; }
+address li:nth-child(3)::before { content: '🌐'; }
+address li:nth-child(4)::before { content: '📍'; }
+
+.left-column section {
+    margin-bottom: 35px;
+}
+
+.left-column h2 {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    padding-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 2px solid var(--border-color);
+}
+
+.left-column article {
+    margin-bottom: 18px;
+}
+
+.education-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.education-link:hover {
+    transform: translateX(3px);
+    opacity: 0.8;
+}
+
+.education-link article {
+    cursor: pointer;
+}
+
+.left-column article h3 {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.left-column article p {
+    font-size: 13px;
+    color: white;
+}
+
+.left-column ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.left-column ul li {
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+/*Right Column*/
+
+.right-column {
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.right-column-content {
+    position: relative;
+    z-index: 2;
+    padding: 50px 60px;
+    background: rgba(0, 0, 0, 0.7);
+    min-height: 100%;
+}
+
+.right-column-content > header {
+    margin-bottom: 40px;
+}
+
+.right-column-content h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.right-column-content .study-title {
+    font-size: 16px;
+    color: white;
+    letter-spacing: 1.5px;
+}
+
+.right-column-content section {
+    margin-bottom: 45px;
+}
+
+.right-column-content h2 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 22px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.right-column-content h2::before {
+    margin-right: 12px;
+    font-size: 20px;
+}
+
+.profile-section h2::before { content: "👤"; }
+.soft-skills-section h2::before { content: "💬"; } 
+.project-section h2::before { content: "🛠️"; } 
+
+/*Profile Section*/
+.profile-section p {
+    font-size: 14px;
+    line-height: 1.8;
+    color: white;
+    text-align: justify;
+}
+
+/*Projects Section*/
+
+.project {
+    margin-bottom: 25px;
+    display: grid;
+    grid-template-columns: 150px 1fr; 
+    gap: 20px;
+}
+
+.project h3 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.project ul {
+    list-style-position: outside;
+    padding-left: 20px;
+}
+
+.project li {
+    font-size: 14px;
+    color: white;
+    margin-bottom: 8px;
+    line-height: 1.6;
+}
+
+.project a {
+    color: #60a5fa;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.project a:hover {
+    color: #93c5fd;
+    text-decoration: underline;
+}
+
+.project strong {
+    color: white;
+}
+
+/*Soft Skills Section*/
+/* learned from here: https://www.cssscript.com/circular-progress-bar-plain-html-css/ */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 35px 25px; 
+    margin-top: 10px;
+}
+
+.skill-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.skill-circle {
+    width: 80px; 
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    --p: 0; 
+    --b: 4px; 
+    --c-progress: var(--primary-color);
+    --c-empty: #ddd;    
+    background: conic-gradient(
+        var(--c-progress) calc(var(--p) * 1%), 
+        var(--c-empty) 0%
+    );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill-circle span {
+    width: calc(100% - var(--b) * 2);
+    height: calc(100% - var(--b) * 2);
+    background: rgb(0, 1, 27); 
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 24px;    
+    font-weight: 700;     
+    color: white;
+}
+
+.skill-name {
+    font-size: 13px; 
+    color: white;
+    line-height: 1.3;
+    padding: 0 5px;
+}
