@@ -27,18 +27,18 @@ A concise CV website that communicates personality and abilities efficiently.
 
 ## 2. Information Architecture
 
-This project is designed as a **single-page website** organized into two vertical columns to ensure efficient readability. The **left column** provides quick-reference information: personal contact details, education background, programming skills, and languages. These are categories that recruiters typically check first.
+This project is designed as a single-page website organized into two vertical columns to ensure efficient readability. The left column provides quick-reference information: personal contact details, education background, programming skills, and languages. These are categories that recruiters typically check first.
 
-The **right column** focuses on narrative and display-oriented content. The header introduces the name and professional role immediately. Below this, the profile section highlights personal traits and goals. The **soft skills section** uses visual circular progress indicators to present self-evaluation in a quick, interpretive format that does not require reading paragraphs. Finally, the **projects section** provides a concise description of a notable project including key technical highlights and a link to the GitHub repository for further inspection.
+The right column focuses on narrative and display-oriented content. The header introduces the name and professional role immediately. Below this, the profile section highlights personal traits and goals. The soft skills section uses visual circular progress indicators to present self-evaluation in a quick, interpretive format that does not require reading paragraphs. Finally, the projects section provides a concise description of a notable project including key technical highlights and a link to the GitHub repository for further inspection.
 
 
 ## 3. Visual Design
 
-The visual design focuses on delivering a **modern style**. The page background uses dark tones. The left column uses a deep blue background to differentiate personal data from the more dynamic and descriptive right column, establishing easy access to information.
+The visual design focuses on delivering a modern style. The page background uses dark tones. The left column uses a deep blue background to differentiate personal data from the more dynamic and descriptive right column, establishing easy access to information.
 
-The typography is **sans-serif** for readability and minimalism. Titles use increased weight and letter spacing for clarity and hierarchy. Color usage is intentionally limited to blue highlights and white text, supporting a consistent aesthetic. The **circular skill indicators** use blue and gray colors to ensure readability.
+The typography is sans-serif for readability and minimalism. Titles use increased weight and letter spacing for clarity and hierarchy. Color usage is intentionally limited to blue highlights and white text, supporting a consistent aesthetic. The circular skill indicators use blue and gray colors to ensure readability.
 
-The right column incorporates a **looping space video background**, adding a sense of depth and atmosphere.  
+The right column incorporates a looping space video background, adding a sense of depth and atmosphere.  
 Overall, the design aims to communicate professionalism and creativity, balancing structured information with expressive visual elements.
 
 
